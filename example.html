@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Example</title>
+    <script src="konami-code.js"></script>
+</head>
+<body>
+
+<script>
+  KonamiCode.add('konami', () => {
+    alert('Konami Code activated!')
+  })
+
+  KonamiCode.add('iddqd', () => {
+    alert('You are invincible now!')
+  })
+
+  KonamiCode.add(['left', 'right', 'left', 'right', 'left'], () => {
+    alert('Third example!')
+  });
+</script>
+
+</body>
+</html>
